@@ -1,0 +1,113 @@
+a {
+  text-decoration: none;
+  color: #6a6a6b;
+}
+
+hr {
+  border-top: 3px dotted rgb(150, 150, 150);
+}
+
+img {
+  width: 100%;
+}
+
+img.hero-icon {
+  width: 200px;
+}
+
+.hero-icon:hover {
+  transform: rotate(15deg);
+}
+.search-form {
+  width: 100%;
+}
+
+.search-bar {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 16px;
+  padding: 8px;
+  font-size: 12px;
+  background: rgb(228, 227, 223 0.3);
+  font-family: "Mulish", sans-serif;
+}
+
+.search-button {
+  background: rgb(228, 227, 223, 0.3);
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  padding: 7px;
+  vertical-align: bottom;
+}
+
+.search-button:hover {
+  background: rgba(45, 45, 44, 0.3);
+  color: white;
+  transition: ease-in-out 150ms;
+}
+
+.location-button {
+  background: #c3ceda;
+  color: #354654;
+  border: 1px solid rgb(100, 124, 144);
+  border-radius: 5px;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  padding: 7px;
+  vertical-align: bottom;
+}
+
+.location-button:hover {
+  background: #647c90;
+  color: #fff;
+}
+
+.city-name {
+  text-transform: uppercase;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+}
+
+.hero-temperature {
+  font-size: 90px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 500;
+}
+
+.degree {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 35px;
+  vertical-align: super;
+  margin-left: -12px;
+  color: #2d2d2c4d;
+}
+
+.degree:hover {
+  color: #6a6a6b;
+}
+
+.humid {
+  margin-top: 46px;
+}
+
+.fct-day {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fct-temp {
+  font-size: 24px;
+}
+
+.fct-img:hover {
+  transform: rotate(15deg);
+}
+
+.weather-info-container,
+.fct-five {
+  color: #6a6a6b;
+  font-family: "Mulish", sans-serif;
+}
